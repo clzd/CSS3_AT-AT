@@ -1,0 +1,686 @@
+/*CSS ANIMATION
+======================*/
+a {
+	padding: 3px;
+	-webkit-transition-property: color,background-color;
+	-webkit-transition-duration: 500ms,500ms;
+}
+a:hover {
+	background-color: #c70909;
+	color: #fff;
+}
+@-webkit-keyframes rotate-skull {0% {
+	-webkit-transform: rotate(0deg)
+}
+25% {
+	-webkit-transform: rotate(15deg)
+}
+50% {
+	-webkit-transform: rotate(-5deg)
+}
+55% {
+	-webkit-transform: rotate(0deg)
+}
+75% {
+	-webkit-transform: rotate(-10deg)
+}
+100% {
+	-webkit-transform: rotate(0deg)
+}
+
+}
+@-webkit-keyframes rotate-head {0% {
+	-webkit-transform: rotate(0deg) translate(0px,0px);
+}
+40% {
+	-webkit-transform: rotate(10deg) translate(15px,5px);
+}
+80% {
+	-webkit-transform: rotate(-5deg) translate(8px,5px);
+}
+100% {
+	-webkit-transform: rotate(0deg) translate(0px,0px);
+}
+
+}
+@-webkit-keyframes rotate-shell {0% {
+	-webkit-transform: rotate(0deg);
+}
+20% {
+	-webkit-transform: rotate(3deg);
+}
+40% {
+	-webkit-transform: rotate(0deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+70% {
+	-webkit-transform: rotate(-3deg);
+}
+90% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes rotate-hip-a {0% {
+	-webkit-transform: translate(0px,0px);
+}
+75% {
+	-webkit-transform: translate(0px,0px);
+}
+80% {
+	-webkit-transform: translate(5px,0px);
+}
+85% {
+	-webkit-transform: translate(5px,5px);
+}
+90% {
+	-webkit-transform: translate(-5px,5px);
+}
+95% {
+	-webkit-transform: translate(-5px,0px);
+}
+100% {
+	-webkit-transform: translate(0px,0px);
+}
+
+}
+@-webkit-keyframes rotate-hip-b {0% {
+	-webkit-transform: translate(0px,0px);
+}
+55% {
+	-webkit-transform: translate(0px,0px);
+}
+60% {
+	-webkit-transform: translate(5px,0px);
+}
+65% {
+	-webkit-transform: translate(5px,5px);
+}
+70% {
+	-webkit-transform: translate(-5px,5px);
+}
+75% {
+	-webkit-transform: translate(-5px,0px);
+}
+80% {
+	-webkit-transform: translate(0px,0px);
+}
+100% {
+	-webkit-transform: translate(0px,0px);
+}
+
+}
+@-webkit-keyframes rotate-hip-c {0% {
+	-webkit-transform: translate(0px,0px);
+}
+25% {
+	-webkit-transform: translate(0px,0px);
+}
+30% {
+	-webkit-transform: translate(5px,0px);
+}
+35% {
+	-webkit-transform: translate(5px,5px);
+}
+40% {
+	-webkit-transform: translate(-5px,5px);
+}
+45% {
+	-webkit-transform: translate(-5px,0px);
+}
+50% {
+	-webkit-transform: translate(0px,0px);
+}
+100% {
+	-webkit-transform: translate(0px,0px);
+}
+
+}
+@-webkit-keyframes rotate-hip-d {0% {
+	-webkit-transform: translate(0px,0px);
+}
+05% {
+	-webkit-transform: translate(5px,0px);
+}
+10% {
+	-webkit-transform: translate(5px,5px);
+}
+15% {
+	-webkit-transform: translate(-5px,5px);
+}
+20% {
+	-webkit-transform: translate(-5px,0px);
+}
+25% {
+	-webkit-transform: translate(0px,0px);
+}
+100% {
+	-webkit-transform: translate(0px,0px);
+}
+
+}
+@-webkit-keyframes thigh-a {0% {
+	-webkit-transform: rotate(0deg);
+}
+70% {
+	-webkit-transform: rotate(0deg);
+}
+80% {
+	-webkit-transform: rotate(-13deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes thigh-b {0% {
+	-webkit-transform: rotate(0deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+60% {
+	-webkit-transform: rotate(-13deg);
+}
+80% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes thigh-c {0% {
+	-webkit-transform: rotate(0deg);
+}
+20% {
+	-webkit-transform: rotate(0deg);
+}
+30% {
+	-webkit-transform: rotate(-13deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes thigh-d {0% {
+	-webkit-transform: rotate(0deg);
+}
+10% {
+	-webkit-transform: rotate(-13deg);
+}
+30% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes shin-a {0% {
+	-webkit-transform: rotate(0deg);
+}
+70% {
+	-webkit-transform: rotate(0deg);
+}
+80% {
+	-webkit-transform: rotate(23deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes shin-b {0% {
+	-webkit-transform: rotate(0deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+60% {
+	-webkit-transform: rotate(23deg);
+}
+80% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes shin-c {0% {
+	-webkit-transform: rotate(0deg);
+}
+20% {
+	-webkit-transform: rotate(0deg);
+}
+30% {
+	-webkit-transform: rotate(23deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes shin-d {0% {
+	-webkit-transform: rotate(0deg);
+}
+10% {
+	-webkit-transform: rotate(23deg);
+}
+30% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes foot-a {0% {
+	-webkit-transform: rotate(0deg);
+}
+70% {
+	-webkit-transform: rotate(0deg);
+}
+80% {
+	-webkit-transform: rotate(-20deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes foot-b {0% {
+	-webkit-transform: rotate(0deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+60% {
+	-webkit-transform: rotate(-20deg);
+}
+80% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes foot-c {0% {
+	-webkit-transform: rotate(0deg);
+}
+20% {
+	-webkit-transform: rotate(0deg);
+}
+30% {
+	-webkit-transform: rotate(-20deg);
+}
+50% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes foot-d {0% {
+	-webkit-transform: rotate(0deg);
+}
+10% {
+	-webkit-transform: rotate(-20deg);
+}
+30% {
+	-webkit-transform: rotate(0deg);
+}
+100% {
+	-webkit-transform: rotate(0deg);
+}
+
+}
+@-webkit-keyframes screen {0% {
+	background-position: left bottom;
+}
+100% {
+	background-position: right bottom;
+}
+
+}
+#atat #shell {
+	-webkit-animation-name: rotate-shell;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+}
+#atat #skull {
+	-webkit-animation-name: rotate-skull;
+	-webkit-animation-duration: 7 s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 0 50%;
+}
+#atat #head {
+	-webkit-animation-name: rotate-head;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 0 50%;
+}
+#atat #leg-a {
+	-webkit-animation-name: rotate-hip-a;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 100% 100%;
+}
+#atat #leg-b {
+	-webkit-animation-name: rotate-hip-b;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 100% 100%;
+}
+#atat #leg-c {
+	-webkit-animation-name: rotate-hip-c;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 100% 100%;
+}
+#atat #leg-d {
+	-webkit-animation-name: rotate-hip-d;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 100% 100%;
+}
+#atat #leg-a .leg-thigh {
+	-webkit-animation-name: thigh-a;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-b .leg-thigh {
+	-webkit-animation-name: thigh-b;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-c .leg-thigh {
+	-webkit-animation-name: thigh-c;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-d .leg-thigh {
+	-webkit-animation-name: thigh-d;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-a .leg-shin {
+	-webkit-animation-name: shin-a;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-b .leg-shin {
+	-webkit-animation-name: shin-b;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-c .leg-shin {
+	-webkit-animation-name: shin-c;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-d .leg-shin {
+	-webkit-animation-name: shin-d;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-a .leg-foot {
+	-webkit-animation-name: foot-a;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-b .leg-foot {
+	-webkit-animation-name: foot-b;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-c .leg-foot {
+	-webkit-animation-name: foot-c;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#atat #leg-d .leg-foot {
+	-webkit-animation-name: foot-d;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 0;
+}
+#the-screen {
+	-webkit-animation-name: screen;
+	-webkit-animation-duration: 300s;
+	-webkit-animation-iteration-count: infinite;
+}
+/*CSS STYLES
+======================*/
+body {
+	font-family: “Helvetica Neue”,Arial,Helvetica,sans-serif;
+}
+#atat {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	top: 60px;
+	left: 50px;
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+}
+#atat #shell {
+	width: 300px;
+	height: 195px;
+	background: transparent url(atat-body.png) no-repeat top left;
+	position: absolute;
+}
+#leg-a,
+#leg-b,
+#leg-c,
+#leg-d {
+	height: 450px;
+	width: 131px;
+	position: relative;
+}
+#leg-a {
+	left: -10px;
+	position: absolute;
+	top: 140px;
+}
+#leg-b {
+	position: absolute;
+	right: 20px;
+	top: 140px;
+}
+#leg-c {
+	left: 3px;
+	position: absolute;
+	top: 150px;
+}
+#leg-d {
+	position: absolute;
+	right: 10px;
+	top: 150px;
+}
+.leg-thigh {
+	height: 120px;
+	width: 131px;
+	background: url(atat-thigh.png) top center no-repeat;
+	position: relative;
+}
+.background .leg-thigh {
+	background: url(atat-thigh-dark.png) top center no-repeat;
+}
+.leg-shin {
+	position: absolute;
+	top: 100px;
+	height: 115px;
+	width: 131px;
+}
+.leg-shin .exo {
+	height: 115px;
+	width: 131px;
+	position: relative;
+	background: url(atat-knee.png) center top no-repeat,
+	url(atat-shin.png) center bottom no-repeat;
+	z-index: 20;
+}
+.background .leg-shin .exo {
+	background: url(atat-knee-dark.png) center top no-repeat,
+	url(atat-shin-dark.png) center bottom no-repeat;
+}
+.leg-foot {
+	height: 90px;
+	width: 131px;
+	position: absolute;
+	bottom: -70px;
+	background: url(atat-foot.png) center bottom no-repeat;
+}
+.background .leg-foot {
+	background: url(atat-foot-dark.png) center bottom no-repeat;
+}
+#head {
+	height: 100px;
+	position: absolute;
+	right: -190px;
+	top: 30px;
+	width: 230px;
+}
+#skull {
+	background: url(atat-skull.png) left center no-repeat;
+	width: 186px;
+	height: 123px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 300;
+}
+#neck {
+	width: 82px;
+	height: 50px;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	background: url(atat-neck.png) left center no-repeat;
+}
+#the-screen {
+	background: #53809F url(atat-background.jpg) no-repeat scroll 0 100%;
+	border: 1px solid #444444;
+	height: 519px;
+	left: 168px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 77px;
+	width: 676px;
+}
+#tablet {
+	background: url(tablet.jpg) center top no-repeat;
+	padding: 0;
+	margin: 0 auto;
+	width: 1000px;
+	height: 1000px;
+	position: relative;
+}
+@font-face {
+	font-family: hanssolo;
+	src: url(hanssolo.ttf);
+}
+h1 {
+	font-family: hanssolo;
+	font-size: 3.2em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.specs {
+	width: 900px;
+	margin: 0 auto;
+}
+.specs h5 {
+	text-align: right;
+	text-transform: uppercase;
+	margin: -5px 0 10px 0;
+	padding: 0;
+	position: relative;
+	right: 105px;
+	font-size: 11px;
+}
+.specs h5 a {
+	text-decoration: none;
+}
+.specs p {
+	margin: 5px auto 10px;
+	padding: 0;
+	font-size: 14px;
+	width: 700px;
+}
+.specs .disclaimer {
+	font-size: 12px;
+}
+.specs .disclaimer a {
+	color: #000;
+	text-decoration: none;
+}
+.specs .disclaimer a:hover {
+	color: #fff;
+}
+span.switch {
+	left: 400px;
+	position: absolute;
+	top: 30px;
+}
+span.switch a {
+	color: #777;
+	font-size: 12px;
+}
+span.switch a:hover {
+	color: #fff;
+	font-size: 12px;
+}
+
+
+
+
+#atat{border:1px dotted red;}
+#atat #shell{border:1px dotted blue;}
+#leg-a{left:-10px;position:absolute;top:140px;}
+.leg-thigh{border:1px dotted red;}
+.leg-shin{border:1px dotted blue;}
+.leg-foot{border:1px dotted green;}
+#head{border:1px dotted red;}
+#skull{border:1px dotted blue;}
+#neck{border:1px dotted green;}
+
+
+
+
+
+
+
+
+
+
